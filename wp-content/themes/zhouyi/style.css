@@ -1,3 +1,173 @@
 /*
 	Theme Name: Zhou Yi
 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	font-style: normal;
+	vertical-align: baseline;
+	background: transparent;
+	border: 0;
+	outline: 0;
+}
+
+ol, ul { list-style: none; }
+body {
+	
+	color: #000;
+	font-family: Calibri, futura, sans-serif;
+	font-size: 7pt;
+}
+
+a{text-decoration: none; color: #000;}
+
+.wrap {width: 1080px;}
+.content{width:927px; }
+.rightbar{width:200px;}
+.main{ width: 619px ;}
+.wrap{margin: 0 auto; overflow: hidden;}
+
+/* header 
+----------------------------------------------- */
+.header{ width: 143px;  float: left; border-right: 1px #000 solid;padding-right: 10px;}
+.nav {padding: 28px 0;}
+.nav li{text-align: center; line-height: 16pt; padding: 5px 0; }
+.nav li.logo{ padding: 20px 0; }
+.nav li.logo:first-child{padding: 0;}
+
+.nav li a{color: rgba(0,0,0,0.5);}
+.nav li.on a{color: #000; font-weight: bold;}
+.sub_trees{ float: left; text-align: center;}
+.sub_trees .nav:first-child{margin-top: 180px;}
+.curlogo  {margin-bottom:  180px;}
+/* content 
+----------------------------------------------- */
+.content{  float: left;  }
+
+/* main 
+----------------------------------------------- */
+.main{float: left;}
+.main img{width: 100%;}
+
+/* rightbar 
+----------------------------------------------- */
+.rightbar{ width:  ; margin: 0 52px; float: left;}
+.rightbar .intro{}
+.rightbar .intro p{word-spacing: 0.2px; padding-bottom: 10px;font-size: 7pt; font-family: Calibri;}
+
+
+/* main_sub 
+----------------------------------------------- */
+.main_sub{ float: left;}
+.main_sub .main_right{ float: left; margin-top: 50px;}
+.main_sub .main_right li{ float: left; position: relative;}
+.main_sub .main_right li img{width: 100%; height: 100%;}
+
+.main_sub .main_right .cover{ display: none;}
+.main_sub .main_right li:hover .cover {display:block;  background:  #272f35; color: #fff; position: absolute; top:0; left: 0;}
+.main_sub .main_right .cover {width: 100%; height: 100%}
+.main_sub .main_right .cover p{padding: 10px; position: absolute;}
+.main_sub .main_right .cover p:first-child{top: 0;}
+.main_sub .main_right .cover p:last-child{bottom: 0;}
+
+/* media 
+----------------------------------------------- */
+.media{ background: url("images/media_bg.jpg") no-repeat;  font-size: 12pt; position: relative;}
+.media p { width: 257px; height: 60px;padding: 0 400px; line-height: 30px; position: absolute; top: 50%; margin-top: -15px; font-family: Futura LT Bo...;}
+.media p a{float: left;   width: 40%; text-align: center; color: #fff;}
+.media p a:last-child{float: right}
+
+.main_right.media_print { margin-top: 50px;}
+.main_right.media_print li{margin: 20px;}
+.main_right.media_print a img{opacity: 0.5;}
+.main_right.media_print a:hover img{opacity: 1;}
+.main_right.print_detail{ margin-top: 70px;}
+.main_right.media_online{margin-top: 50px;}
+.main_right.media_online li{margin: 20px;}
+.main_right.special li{float: left;  margin: 0 40px 40px 0;}
+
+
+/* slide 
+----------------------------------------------- */
+.slide{width:790px;height:560px;margin:10px auto 0 auto;overflow:hidden;position:relative;background-color:#fff;z-index:10;}
+.slide ul{height:560px;}
+.slide ul li{width:790px;height:560px;float:left; margin: 0;}
+.slide .skip{display:none;_display:block;width:12px;height:22px;background:url(images/icon.png) no-repeat;position:absolute;top:50%;margin-top:-24px;text-indent:-1000em;cursor:pointer;}
+.slide .prev{background-position:0 0;left:10px;}
+.slide .prev:hover{background-position:0 -0;}
+.slide .next{background-position:-12px -0;right:10px;}
+.slide .next:hover{background-position:-12px -0;}
+.slide:hover .prev,.slide:hover .next{display:block;}
+
+
+
+.address{ margin-left: 45%; margin-top: 6%;}
+.address li{ float: left;  padding: 10px; width: 30%; color: rgba(0,0,0,0.5); line-height: 22px;}
+.address li a{ color: rgba(0,0,0,1)}
+
+
+
+/* links 
+----------------------------------------------- */
+.links{ overflow: hidden; padding-top: 30px;}
+
+.links p{padding: 10px 0;}
+.lin_l{ float: left; width: 25%}
+.lin_l img{width: 100%}
+.lin_l a{display: block; padding: 10px 0;}
+.lin_r{ float: right;width: 70%}
+
+/* WIDE DESKTOP LAYOUT 
+----------------------------------------------- */
+@media only screen and (min-width: 1176px) {
+.wrap {width: 1201px;}
+.content{width:1047px;  }
+.main{ width: 690px ;}
+.rightbar{width:253px;}
+.sub_trees{ width: 180px; margin-top: 20px;}
+.sub_trees nav{padding-top: 180px;}
+.main_right{width: 867px; margin-top: 17px;}
+.main_right li{margin:0px 17px 17px 0; }
+.main_right li .tmplS{width: 405px; height: 230px; }
+.main_right li .tmple{width: 271px; height: 350px;}
+.media{  height: 682px; }
+.main_right.media_print li .tmple{width: 176px; height: 230px; }
+.main_right.media_online li .tmple{width: 390px; height: 450px; }
+.main_right.special li{width: 393px;}
+.main_right.special li .tmple{width: auto;}
+.main_right.artist li{ margin-left: 20%;}
+.main_right.artist li .tmple{width: 600px; height: auto;  padding: 16px 0;}
+.address li:nth-child(2n+1){width: 60%;}
+}
+
+/* WIDE PAD LAYOUT 
+----------------------------------------------- */
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.wrap {width: 712px;}
+.header{width: 712px;}
+.header li{float: left; margin: 0 10px;}
+.content{width:100%; }
+.main{ width: 470px ;}
+.rightbar{width:178px;margin: 0 22px;  }
+}
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.wrap {width: 712px;}
+.header{width: 712px;}
+.header li{float: left;}
+.content{width:100%; }
+.main{ width: 470px ;}
+.rightbar{width:178px;margin: 0 22px;  }
+}
+@media only screen and (max-width: 767px){
+
+}
