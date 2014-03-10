@@ -26,7 +26,7 @@
 						</a>
 					</li>
 					<li class="logo"><img src="<?=get_template_directory_uri()?>/images/logo2.gif" ><br />ShangHai Pyramis Point Ltd</li>
-					<li><a href="media.html">
+					<li><a href="<?=site_url()?>/media/">
 							Media
 							<br />
 							媒体</a>
@@ -35,12 +35,12 @@
 						Moon Prism 
 						Digital Entertainment Arts Ltd
 					</li>
-					<li><a href="artist.html">
+					<li><a href="<?=site_url()?>/artist/">
 							Artist Line
 							<br />
 							艺术家系列</a>
 					</li>
-					<li><a href="special.html">
+					<li><a href="<?=site_url()?>/special">
 							Special Projects
 							/
 							Crossover projects 
@@ -49,7 +49,7 @@
 							<br />
 							特殊项目</a>
 					</li>
-					<li><a href="contact.html">
+					<li><a href="<?=site_url()?>/contact">
 							Contact
 							<br />
 							联系</a>
