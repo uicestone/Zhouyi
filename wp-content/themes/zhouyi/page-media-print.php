@@ -2,7 +2,8 @@
 <div class="content">
 	<?php get_sidebar('media'); ?>
 	<div class="main_sub">
-		<ul class="main_right media_print">
+		<div class="main_right">
+			<ul class="media_print">
 			<li>
 				<div class="tmple">
 					<a href="<?=site_url()?>/media-print-detail/">
@@ -106,6 +107,7 @@
 			</li>
 			<!--loop end-->
 		</ul>
+		</div>
 	</div>
 	<!--main end-->
 

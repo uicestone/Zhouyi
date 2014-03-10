@@ -2,7 +2,8 @@
 <div class="content">
 	<?php get_sidebar('artworks'); ?>
 	<div class="main_sub">
-		<ul class="main_right">
+		<div class="main_right">
+			<ul class="artworks">
 			<li>
 				<div class="tmplS">
 					<a href="">
@@ -190,6 +191,7 @@
 			</li>
 			<!--loop end-->
 		</ul>
+		</div>
 	</div>
 	<!--main end-->
 </div>

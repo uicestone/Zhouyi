@@ -2,8 +2,10 @@
 <div class="content">
 	<?php get_sidebar('media'); ?>
 	<div class="main_sub">
-		<div class="main_right print_detail">
-			<img src="images/print_img1_1.jpg" width="100%" alt=""></div>
+		<div class="main_right">
+			<div class="print_detail">
+			<img src="<?=get_template_directory_uri()?>/images/print_img1_1.jpg" width="100%" alt=""></div>
+		</div>
 	</div>
 	<!--main end-->
 

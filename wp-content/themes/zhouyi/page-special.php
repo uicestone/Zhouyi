@@ -2,7 +2,8 @@
 <div class="content">
 	<?php get_sidebar('special'); ?>
 	<div class="main_sub">
-		<ul class="main_right special">
+		<div class="main_right">
+			<ul class="special">
 			<li>
 				<div class="tmple">
 					<a href="">
@@ -72,6 +73,7 @@
 			</li>
 			<!--loop end-->
 		</ul>
+		</div>
 	</div>
 	<!--main end-->
 
