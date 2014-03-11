@@ -31,16 +31,13 @@ body {
 
 a{text-decoration: none; color: #000;}
 
-/*.wrap {width: 1080px; }
-.content{width:927px; }
-.rightbar{width:200px;}
-.main{ width: 619px ;}*/
-.wrap{ position: absolute; position: absolute; top: 0px; bottom: 0; right: 0; left: 0;}
+.wrap, .header, .content { position: absolute; right: 0; top: 0; bottom: 0; }
+.wrap, .header { left: 0;}
 .admin-bar .wrap { top: 32px; }
 
 /* header 
 ----------------------------------------------- */
-.header{ width: 142px;  position: absolute; left: 0; top: 0; bottom: 0; border-right: 1px #000 solid;}
+.header{ width: 142px; overflow-y: auto; }
 .nav {padding-top: 28px;}
 .nav li{text-align: center; line-height: 16pt; padding: 2px 0; -webkit-transform: scale(0.74);}
 .nav li.logo{ padding: 10px 0; line-height: 15px; }
@@ -54,20 +51,18 @@ a{text-decoration: none; color: #000;}
 .curlogo  {margin-bottom:  180px;}
 /* content 
 ----------------------------------------------- */
-.content{  position: absolute; left: 142px; top: 0; right: 0; bottom: 0;  }
+.content{ left: 142px; overflow-y: auto; }
 
 /* main 
 ----------------------------------------------- */
-/*.main{float: left;}*/
-.home .content .main{ float:left; width: 60.4% }
-.main img{width: 100%; /*height: 709px;*/}
+.home .content .main{ float:left; width: 60.4%; height: 100%; background-image: url('images/index_pic.jpg'); background-size: cover; }
+.main img{ width: 100%; }
 
 /* rightbar 
 ----------------------------------------------- */
 
-.home .content .rightbar{ width: 24%; margin: 0 7.8%; float: left; padding-top: 28px;}
-.home .content .rightbar .intro{ height: 340px; overflow-y: scroll;}
-.rightbar .intro p{word-spacing: 0.2px; padding-bottom: 10px;font-size: 7pt; font-family: Calibri;}
+.home .content .rightbar{ width: 24%; float: left; overflow-y: auto; height: 92%; padding: 4% 7.8% 0; }
+.home .content .rightbar .intro p{ word-spacing: 0.2px; padding-bottom: 10px;font-size: 7pt; font-family: Calibri; text-align: justify; }
 
 
 /* main_sub 
@@ -160,26 +155,4 @@ a{text-decoration: none; color: #000;}
 .main_right .special li .tmple{width: 362px; height: 326px;}
 .main_right .artist li .tmple{width: 430px; height: auto;}
 .address li:nth-child(2n+1){width: 60%;}
-}
-
-/* WIDE PAD LAYOUT 
------------------------------------------------ */
-@media only screen and (max-width: 991px) and (min-width: 768px){
-.wrap {width: 712px;}
-.header{width: 712px;}
-.header li{float: left; margin: 0 10px;}
-.content{width:100%; }
-.main{ width: 470px ;}
-.rightbar{width:178px;margin: 0 22px;  }
-}
-@media only screen and (max-width: 767px) and (min-width: 480px){
-.wrap {width: 712px;}
-.header{width: 712px;}
-.header li{float: left;}
-.content{width:100%; }
-.main{ width: 470px ;}
-.rightbar{width:178px;margin: 0 22px;  }
-}
-@media only screen and (max-width: 767px){
-
 }

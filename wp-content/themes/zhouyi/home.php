@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <div class="content">
-	<div class="main">
-		<img src="<?=get_template_directory_uri()?>/images/index_pic.jpg" ></div>
+	<div class="main"></div>
 	<!--main end-->
 	<div class="rightbar">
 		<div class="intro">
