@@ -37,15 +37,16 @@ a{text-decoration: none; color: #000;}
 
 /* header 
 ----------------------------------------------- */
-.header{ width: 142px; overflow-y: auto; }
-.nav {padding-top: 28px;}
+.header{ width: 142px; overflow-y: auto; border-right: 1px solid #000; }
+.nav ::-webkit-scrollbar { display: none; }
+.nav li:first-child { margin-top: 4%; }
 .nav li{text-align: center; line-height: 16pt; padding: 2px 0; -webkit-transform: scale(0.74);}
 .nav li.logo{ padding: 10px 0; line-height: 15px; }
 .nav li.logo img{ margin-bottom: 5px; }
 .nav li.logo:first-child{padding: 0;}
 
-.nav li a{color: rgba(0,0,0,0.5);}
-.nav li.on a{color: #000; font-weight: bold;}
+.nav li a{ color: #888; }
+.nav li.on a{ color: #000; font-weight: bold; }
 .sub_trees{ float: left; text-align: center;}
 .sub_trees .nav:first-child{margin-top: 180px;}
 .curlogo  {margin-bottom:  180px;}
@@ -55,13 +56,13 @@ a{text-decoration: none; color: #000;}
 
 /* main 
 ----------------------------------------------- */
-.home .content .main{ float:left; width: 60.4%; height: 100%; background-image: url('images/index_pic.jpg'); background-size: cover; }
+.home .content .main{ float:left; width: 60.4%; height: 100%; background: url('images/index_pic.jpg') center; background-size: cover; }
 .main img{ width: 100%; }
 
 /* rightbar 
 ----------------------------------------------- */
-
-.home .content .rightbar{ width: 24%; float: left; overflow-y: auto; height: 92%; padding: 4% 7.8% 0; }
+.home .content .rightbar{ width: 24%; float: left; overflow-y: auto; height: 92%; padding: 0 7.8%; }
+.home .content .rightbar .intro { margin-top: 8%; }
 .home .content .rightbar .intro p{ word-spacing: 0.2px; padding-bottom: 10px;font-size: 7pt; font-family: Calibri; text-align: justify; }
 
 

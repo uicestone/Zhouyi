@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>周依</title>
 		<?php wp_head(); ?>
 	</head>
