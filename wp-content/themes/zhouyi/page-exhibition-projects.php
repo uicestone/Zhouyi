@@ -3,42 +3,23 @@
 	<?php get_sidebar('artworks'); ?>
 	<div class="main_sub">
 		<div class="main_right">
-			<ul class="artworks">
-			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/exhibition_img1.jpg"></a>
+			<ul class="exhibition-projects">
+				<li>
+					<a href=""><img src="<?= get_template_directory_uri() ?>/images/exhibition_img1.jpg"></a>
 
-				</div>
-			</li>
-			<!--loop end-->
-			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/exhibition_img2.jpg"></a>
+				</li>
+				<li>
+					<a href=""><img src="<?= get_template_directory_uri() ?>/images/exhibition_img2.jpg"></a>
 
-				</div>
-			</li>
-			<!--loop end-->
-			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/exhibition_img3.jpg"></a>
+				</li>
+				<li>
+					<a href=""><img src="<?= get_template_directory_uri() ?>/images/exhibition_img3.jpg"></a>
 
-				</div>
-			</li>
-			<!--loop end-->
-
-			<li>
-				<!--横向图片-->
-				<div class="tmple2">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/exhibition_img4.jpg"></a>
-
-				</div>
-			</li>
-			<!--loop end-->
-		</ul>
+				</li>
+				<li class="banner">
+					<a href=""><img src="<?= get_template_directory_uri() ?>/images/exhibition_img4.jpg"></a>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<!--main end-->

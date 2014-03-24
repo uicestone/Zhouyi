@@ -20,7 +20,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="<?= site_url() ?>/personal-work/">
+						<a href="<?= site_url() ?>/artworks/">
 							Artworks
 							<br />
 							作品

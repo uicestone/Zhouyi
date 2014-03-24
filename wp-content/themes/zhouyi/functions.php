@@ -10,10 +10,8 @@ register_nav_menu('primary', '主导航');
 
 /**
  * 添加一些缩略图标准
-add_image_size( 'all-video-slide', 792, 400, true );
-add_image_size( 'all-video-waterfall', 190, 0);
-add_image_size( 'product-slide', 1120, 618, true);
  */
+add_image_size( 'video-thumbnail', 600, 327, true );
 
 /**
  * 自动的页面标题和favicon注入

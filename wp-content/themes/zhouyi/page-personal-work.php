@@ -7,7 +7,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img1.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img1-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
@@ -38,7 +38,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img2.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img2-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
@@ -69,7 +69,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img3.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img3-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
@@ -100,7 +100,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img4.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img4-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
@@ -131,7 +131,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img5.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img5-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
@@ -162,7 +162,7 @@
 				<li>
 					<div class="tmplS">
 						<a href="">
-							<img src="<?= get_template_directory_uri() ?>/images/video_img6.jpg"></a>
+							<img src="<?=site_url()?>/wp-content/uploads/2014/03/video_img6-600x327.jpg"></a>
 						<div class="cover">
 							<p>
 								Labyrinth
