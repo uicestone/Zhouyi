@@ -1,150 +1,303 @@
 /*
 	Theme Name: Zhou Yi
 */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+body, ul{
 	margin: 0;
 	padding: 0;
-	font-size: 100%;
-	font-weight: inherit;
-	font-style: normal;
-	vertical-align: baseline;
-	background: transparent;
-	border: 0;
-	outline: 0;
 }
 
-ol, ul { list-style: none; }
+ol, ul {
+	list-style: none;
+}
+
 body {
-	
+
 	color: #000;
 	font-family: Futura, Calibri, sans-serif;
 	font-size: 7pt;
 }
 
-a{text-decoration: none; color: #000;}
+a{
+	text-decoration: none;
+	color: #000;
+}
 
-.wrap, .header, .content { position: absolute; right: 0; top: 0; bottom: 0; }
-.wrap, .header { left: 0;}
-.admin-bar .wrap { top: 32px; }
+.header, .content {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
 
-/* header 
+.admin-bar{
+	top: 32px;
+}
+
+/* nav
 ----------------------------------------------- */
-.header{ width: 142px; overflow-y: auto; border-right: 1px solid #000; }
-.nav ::-webkit-scrollbar { display: none; }
-.nav li:first-child { margin-top: 4%; }
-.nav li{text-align: center; line-height: 16pt; padding: 2px 0; -webkit-transform: scale(0.74);}
-.nav li.logo{ padding: 10px 0; line-height: 15px; }
-.nav li.logo img{ margin-bottom: 5px; }
-.nav li.logo:first-child{padding: 0;}
+.header{
+	width: 142px;
+	left: 0;
+	overflow-y: auto;
+	border-right: 1px solid #000;
+}
 
-.nav li a{ color: #888; }
-.nav li.on a{ color: #000; font-weight: bold; }
-.sub_trees{ float: left; text-align: center;}
-.sub_trees .nav:first-child{margin-top: 180px;}
-.curlogo  {margin-bottom:  180px;}
+.nav ::-webkit-scrollbar {
+	display: none;
+}
+
+.nav li:first-child {
+	margin-top: 4%;
+}
+
+.nav li{
+	text-align: center;
+	line-height: 16pt;
+	padding: 2px 0;
+	-webkit-transform: scale(0.74);
+}
+
+.nav li.logo{
+	padding: 10px 0;
+	line-height: 15px;
+}
+
+.nav li.logo img{
+	margin-bottom: 5px;
+}
+
+.nav li.logo:first-child{
+	padding: 0;
+}
+
+.nav li a{
+	color: #888;
+}
+
+.nav li.on a{
+	color: #000;
+	font-weight: bold;
+}
+
+/* sub nav
+----------------------------------------------- */
+.sub-nav{
+	text-align: center;
+}
+
+.sub-nav{
+	width: 180px;
+	position: absolute;
+	top: 20px;
+}
+
+.curlogo  {
+	margin-bottom: 180px;
+}
+
 /* content 
 ----------------------------------------------- */
-.content{ left: 142px; overflow-y: auto; }
+.content{
+	left: 142px;
+	overflow-y: auto;
+}
 
-/* main 
+/* home 
 ----------------------------------------------- */
-.home .content .main{ float:left; width: 60.4%; height: 100%; background: url('images/index_pic.jpg') center; background-size: cover; }
-.main img{ width: 100%; }
+.home .main{
+	float:left;
+	width: 60.4%;
+	height: 100%;
+	background: url('images/index_pic.jpg') top center;
+	background-size: cover;
+}
 
-/* rightbar 
+.home .main img{
+	width: 100%;
+}
+
+.home .right{
+	width: 24%;
+	height: 92%;
+	float: left;
+	padding: 0 7.8%;
+	overflow-y: auto;
+}
+
+.home .right .intro {
+	margin-top: 8%;
+}
+
+.home .right .intro p{
+	word-spacing: 0.2px;
+	padding-bottom: 10px;
+	font-size: 7pt;
+	font-family: Calibri;
+	text-align: justify;
+}
+
+/* category cover
 ----------------------------------------------- */
-.home .content .rightbar{ width: 24%; float: left; overflow-y: auto; height: 92%; padding: 0 7.8%; }
-.home .content .rightbar .intro { margin-top: 8%; }
-.home .content .rightbar .intro p{ word-spacing: 0.2px; padding-bottom: 10px;font-size: 7pt; font-family: Calibri; text-align: justify; }
+.category-cover{
+	background-position: center;
+	background-size: cover;
+}
+
+.category-cover{
+	font-size: 12pt;
+}
+
+.category-cover p {
+	height: 60px;
+	width: 30%;
+	padding: 0 35%;
+	line-height: 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -60px;
+	font-family: 'Futura LT Bo';
+}
+
+.category-cover p a{
+	float: left;  width: 40%;
+	text-align: center;
+	color: #fff;
+}
+
+.category-cover p a:last-child{
+	float: right
+}
 
 
-/* main_sub 
+/* 3-column pages
 ----------------------------------------------- */
-.main_sub{ position: absolute; left: 180px; top: 0; right: 0; bottom: 0; overflow-y: scroll; }
-.main_sub .main_right{ float: left; width: 100%;}
-.main_sub .main_right li{ float: left; position: relative;}
-.main_sub .main_right li img{width: 100%; height: 100%;}
+.page .main{
+	position: absolute;
+	left: 180px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
 
-.main_sub .main_right .cover{ display: none;}
-.main_sub .main_right li:hover .cover {display:block;  background:  #272f35; color: #fff; position: absolute; top:0; left: 0;}
-.main_sub .main_right .cover {width: 100%; height: 100%}
-.main_sub .main_right .cover p{padding: 10px; position: absolute;}
-.main_sub .main_right .cover p:first-child{top: 0;}
-.main_sub .main_right .cover p:last-child{bottom: 0;}
-.main_sub .artworks{ margin-top: 17px; padding-right: 33px; overflow: hidden;}
-.main_sub .artworks li{ float: left; width: 46.2%; margin-right: 1.9%; margin-bottom: 1%; }
-.main_sub .exhibition-projects li { float: left; margin: 1% 0.5%; }
-.main_sub .exhibition-projects li { width: 32%; }
-.main_sub .exhibition-projects li.banner { width: 96%; }
-/* media 
+.page .main li{
+	float: left;
+}
+
+.page .main li img{
+	width: 100%;
+}
+
+/* artworks
 ----------------------------------------------- */
-.content.media { background: url('images/media_bg.jpg') center; background-size: cover; }
-.media{ font-size: 12pt; }
-.media p { height: 60px; width: 30%; padding: 0 35%; line-height: 30px; position: absolute; top: 50%; margin-top: -30px; font-family: 'Futura LT Bo';}
-.media p a{float: left;   width: 40%; text-align: center; color: #fff;}
-.media p a:last-child{float: right}
+.artworks{
+	background-image: url('images/media_bg.jpg');
+}
 
-
-.main_right .media_print,.main_right .media_online{padding-top: 70px;}
-.main_right .media_print { padding-right: 130px; overflow: hidden;}
-.main_right .media_print li{ margin: 0; padding-left: 40px; padding-bottom: 40px;}
-.main_right .media_print li .tmple{ overflow: hidden;}
-.main_right .media_print a img{opacity: 0.5;}
-.main_right .media_print a:hover img{opacity: 1;}
-.main_right .print_detail{ margin-top: 70px;margin-left: 40px; margin-right: 84px;}
-.main_right .media_online{ padding-right: 84px; overflow: hidden;}
-.main_right .media_online li{margin: 0; padding-left: 40px; padding-bottom: 40px;}
-.main_right .special{ margin-top: 72px; margin-right: 72px; overflow: hidden;}
-.main_right .special li{float: left; margin: 0 0  40px 40px;}
-.main_right .artist { margin: 72px 267px 16px 180px; overflow: hidden;}
-.main_right .artist li .tmple{ padding-bottom: 16px}
-
-
-/* slide 
+/* personal work
 ----------------------------------------------- */
-.slide{width:790px;height:560px;margin:10px auto 0 auto;overflow:hidden;position:relative;background-color:#fff;z-index:10;}
-.slide ul{height:560px;}
-.slide ul li{width:790px;height:560px;float:left; margin: 0;}
-.slide .skip{display:none;_display:block;width:12px;height:22px;background:url(images/icon.png) no-repeat;position:absolute;top:50%;margin-top:-24px;text-indent:-1000em;cursor:pointer;}
-.slide .prev{background-position:0 0;left:10px;}
-.slide .prev:hover{background-position:0 -0;}
-.slide .next{background-position:-12px -0;right:10px;}
-.slide .next:hover{background-position:-12px -0;}
-.slide:hover .prev,.slide:hover .next{display:block;}
+.personal-work .main ul{
+	margin-top: 17px;
+	padding-right: 33px;
+	overflow: hidden;
+}
 
+.personal-work .main ul li{
+	float: left;
+	width: 46.2%;
+	margin-right: 1.9%;
+	margin-bottom: 1%;
+	position: relative;
+}
 
+.personal-work .main li .cover{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
 
-.address{ margin-left: 45%; margin-top: 6%;}
-.address li{ float: left;  padding: 10px; width: 30%; color: rgba(0,0,0,0.5); line-height: 22px;}
-.address li a{ color: rgba(0,0,0,1)}
+.personal-work .main .cover p{
+	padding: 10px;
+	position: absolute;
+}
 
+.personal-work .main .cover p:first-child{
+	top: 0;
+}
 
+.personal-work .main .cover p:last-child{
+	bottom: 0;
+}
 
-/* links 
+.personal-work .main li:hover .cover {
+	display:block; 
+	background:  #272f35;
+	color: #fff;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+/* exhibition-projects
 ----------------------------------------------- */
-.links{ overflow: hidden; padding-top: 86px;}
+.exhibition-projects .main li {
+	float: left;
+	margin: 1% 0.5%;
+}
 
-.links p{padding: 10px 0;}
-.lin_l{ float: left; width: 25%}
-.lin_l img{width: 100%}
-.lin_l a{display: block; padding: 10px 0;}
-.lin_r{ float: right;width: 70%}
-.lin_r img{ width: 60%;}
+.exhibition-projects .main li {
+	width: 32%;
+}
+.exhibition-projects .main li.banner {
+	width: 96%;
+}
 
-.sub_trees{ width: 180px; position: absolute; top: 20px;}
-.sub_trees nav{padding-top: 180px;}
-.main_right li .tmple{width: 264px; height: 350px;}
-.main_right.special{ width: 804px;}
-.main_right .media_print li .tmple{width: 146px; height: 184px}
-.main_right .media_online li .tmple{width: 356px; height: 440px; }
-.main_right .special li .tmple{width: 362px; height: 326px;}
-.main_right .artist li .tmple{width: 430px; height: auto;}
-.address li:nth-child(2n+1){width: 60%;}
+/*media
+----------------------------------------------- */
+.media{
+	background-image: url('images/media_bg.jpg');
+}
+
+/* media print
+----------------------------------------------- */
+.media-print .main{
+	padding-top: 70px;
+}
+
+.media-print .main li{
+	width: 16.7%;
+	float: left;
+	margin-left: 4.6%;
+	margin-top: 0;
+	margin-bottom: 3.7%;
+}
+
+.media-print .main li a img{
+	opacity: 0.5;
+}
+
+.media-print .main li a:hover img{
+	opacity: 1;
+}
+
+/* contact
+----------------------------------------------- */
+.contact .address{
+	margin-left: 45%;
+	margin-top: 6%;
+}
+
+.contact .address li{
+	float: left; padding: 10px;
+	width: 30%;
+	color: rgba(0,0,0,0.5);
+	line-height: 22px;
+}
+
+.contact .address li a{
+	color: rgba(0,0,0,1);
+}
+
+.contact .address li:nth-child(2n+1){
+	width: 60%;
+}

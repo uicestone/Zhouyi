@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="content">
+<div class="content contact">
 	<div class="map">
 		<img src="<?=get_template_directory_uri()?>/images/map.jpg" width="100%" >
 		<ul class="address">

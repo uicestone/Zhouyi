@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
 	<?php get_sidebar('special'); ?>
-	<div class="main_sub">
+	<div class="main">
 		<div class="main_right">
 			<ul class="special">
 			<li>

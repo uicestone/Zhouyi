@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
 	<div class="main"></div>
-	<!--main end-->
-	<div class="rightbar">
+	<div class="right">
 		<div class="intro">
 			<p>
 				Chinese multimedia artist who has lived in Rome from the age of ten and 
@@ -68,7 +67,7 @@
 		</div>
 
 	</div>
-	<!--rightbar end-->
+	<!--intro end-->
 </div>
 
 <?php get_footer(); ?>

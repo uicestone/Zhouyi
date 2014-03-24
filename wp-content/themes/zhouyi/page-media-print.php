@@ -1,113 +1,45 @@
 <?php get_header(); ?>
-<div class="content">
+<div class="content media-print">
 	<?php get_sidebar('media'); ?>
-	<div class="main_sub">
-		<div class="main_right">
-			<ul class="media_print">
+	<div class="main">
+		<ul>
 			<li>
-				<div class="tmple">
-					<a href="<?=site_url()?>/media-print-detail/">
-						<img src="<?=get_template_directory_uri()?>/images/print_img1.jpg"></a>
-
-				</div>
+				<a href="<?= site_url() ?>/media-print-detail/"><img src="<?= get_template_directory_uri() ?>/images/print_img1.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img2.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img2.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img3.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img3.jpg"></a>
 			</li>
-			<!--loop end-->
-
 			<li>
-
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img4.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img4.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img1.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img1.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img2.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img2.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img3.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img3.jpg"></a>
 			</li>
-			<!--loop end-->
-
 			<li>
-
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img4.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img4.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img1.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img1.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img2.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img2.jpg"></a>
 			</li>
-			<!--loop end-->
 			<li>
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img3.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img3.jpg"></a>
 			</li>
-			<!--loop end-->
-
 			<li>
-
-				<div class="tmple">
-					<a href="">
-						<img src="<?=get_template_directory_uri()?>/images/print_img4.jpg"></a>
-
-				</div>
+				<a href=""><img src="<?= get_template_directory_uri() ?>/images/print_img4.jpg"></a>
 			</li>
-			<!--loop end-->
 		</ul>
-		</div>
 	</div>
 	<!--main end-->
 

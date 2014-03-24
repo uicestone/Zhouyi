@@ -1,4 +1,4 @@
-<div class="sub_trees">
+<div class="sub-nav">
 	<ul class="nav">
 		<li class="on">
 			<a href="<?=site_url()?>/personal-work/">
@@ -25,4 +25,4 @@
 		</li>
 	</ul>
 </div>
-<!--sub_trees end-->
+<!--sub-nav end-->

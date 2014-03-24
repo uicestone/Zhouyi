@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
 	<?php get_sidebar('artist-detail'); ?>
-		<div class="main_sub">
+		<div class="main">
 		<div class="main_right artist_detail">
 			<div class="slide" id="img-play" >
 				<ul class="ul-img" >

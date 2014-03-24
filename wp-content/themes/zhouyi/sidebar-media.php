@@ -1,4 +1,4 @@
-<div class="sub_trees">
+<div class="sub-nav">
 	<div class="curlogo">
 		<img src="<?=get_template_directory_uri()?>
 		/images/logo2.gif" >
@@ -31,4 +31,4 @@
 		</li>
 	</ul>
 </div>
-<!--sub_trees end-->
+<!--sub-nav end-->
