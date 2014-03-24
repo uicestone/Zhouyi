@@ -1,8 +1,8 @@
 <?php get_header(); ?>
-<div class="content">
+<div class="content media-online">
 	<?php get_sidebar('media'); ?>
 	<div class="main">
-		<ul class="media_online">
+		<ul class="">
 			<li>
 				<a href="<?= site_url() ?>/media-print-detail/"><img src="<?= get_template_directory_uri() ?>/images/online_img1.jpg"></a>
 			</li>

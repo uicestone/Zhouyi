@@ -1,10 +1,12 @@
 <?php
+
 /**
  * 注册两个导航菜单位
  * 可以在后台添加菜单置入
  * 可以在主题中使用wp_nav_menu(array('menu'=>'primary/foot'))来载入
-register_nav_menu('primary', '主导航');
  */
+register_nav_menu('artworks', '作品');
+register_nav_menu('media', '媒体');
 
 //add_theme_support( 'post-thumbnails' );
 
