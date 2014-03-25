@@ -35,7 +35,13 @@ add_action( 'wp_enqueue_scripts', function(){
 	//wp_enqueue_script('mediaelement');
 	
 	wp_register_style('style', get_template_directory_uri().'/style.css');
+	wp_register_style('windows', get_template_directory_uri().'/css/windows.css', array('style'));
 	wp_enqueue_style('style');
+	
+	if(strpos($_SERVER['HTTP_USER_AGENT'], 'Windows') !== false){
+		wp_enqueue_style('windows');
+	}
+	
 	//wp_enqueue_style('mediaelement');
 });
 

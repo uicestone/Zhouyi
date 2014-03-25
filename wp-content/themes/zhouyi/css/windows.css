@@ -1,0 +1,13 @@
+.header {
+	overflow-y: scroll;
+	width: 160px;
+}
+
+.nav li{
+	-webkit-transform: scale(1);
+}
+
+.content {
+	left: 146px;
+	background-color: #FFF;
+}
