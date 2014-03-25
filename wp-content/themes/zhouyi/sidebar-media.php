@@ -1,5 +1,5 @@
 <div class="sub-nav">
-	<div class="curlogo">
+	<div class="logo">
 		<img src="<?=get_template_directory_uri()?>
 		/images/logo2.gif" >
 		<br />
@@ -8,14 +8,14 @@
 	<ul class="nav">
 		<li>
 			<a href="<?=site_url()?>/media-print/">
-								Print Press
+				Print Press
 				<br />
 				平面媒体
 			</a>
 		</li>
 		<li class="on">
 			<a href="<?=site_url()?>/media-online/">
-								Online Press
+				Online Press
 				<br />
 				网络媒体
 			</a>
@@ -31,4 +31,3 @@
 		</li>
 	</ul>
 </div>
-<!--sub-nav end-->

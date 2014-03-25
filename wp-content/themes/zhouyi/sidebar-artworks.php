@@ -1,4 +1,5 @@
 <div class="sub-nav">
+	<div class="logo"></div>
 	<ul class="nav">
 		<li class="on">
 			<a href="<?=site_url()?>/personal-work/">
@@ -25,4 +26,3 @@
 		</li>
 	</ul>
 </div>
-<!--sub-nav end-->
