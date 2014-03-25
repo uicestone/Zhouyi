@@ -3,9 +3,10 @@
 	<?php get_sidebar('artworks'); ?>
 	<div class="main">
 		<ul>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img1-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img1-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth
@@ -31,9 +32,10 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img2-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img2-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth
@@ -59,9 +61,10 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img3-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img3-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth
@@ -87,9 +90,10 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img4-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img4-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth
@@ -115,9 +119,10 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img5-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img5-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth
@@ -143,9 +148,10 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
-					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img6-600x327.jpg"></a>
+					<img src="<?= site_url() ?>/wp-content/uploads/2014/03/video_img6-600x327.jpg">
+				</a>
 				<div class="cover">
 					<p>
 						Labyrinth

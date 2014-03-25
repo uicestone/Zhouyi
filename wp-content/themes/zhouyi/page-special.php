@@ -3,7 +3,7 @@
 	<?php get_sidebar('special'); ?>
 	<div class="main">
 		<ul>
-			<li>
+			<li class="hoverable">
 				<a href="">
 					<img src="<?= get_template_directory_uri() ?>/images/special_img1.jpg">
 				</a>
@@ -20,7 +20,7 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
 					<img src="<?= get_template_directory_uri() ?>/images/special_img2.jpg">
 				</a>
@@ -37,7 +37,7 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
 					<img src="<?= get_template_directory_uri() ?>/images/special_img3.jpg">
 				</a>
@@ -54,7 +54,7 @@
 					</p>
 				</div>
 			</li>
-			<li>
+			<li class="hoverable">
 				<a href="">
 					<img src="<?= get_template_directory_uri() ?>/images/special_img4.jpg">
 				</a>

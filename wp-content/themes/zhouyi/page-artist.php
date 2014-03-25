@@ -4,11 +4,12 @@
 	<div class="main">
 		<ul>
 			<li>
-
+				
 			</li>
-			<li>
+			<li class="hoverable">
 				<a>
-					<img src="<?= get_template_directory_uri() ?>/images/artist_img2.jpg"></a>
+					<img src="<?= get_template_directory_uri() ?>/images/artist_img2.jpg">
+				</a>
 				<a href="<?= site_url() ?>/artist-detail/" class="cover" >
 					<p>
 						Iceberg X YiZhou
