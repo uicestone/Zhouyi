@@ -28,7 +28,10 @@ add_action('wp_head', function(){
  * 通过wp_header()来载入
  */
 add_action( 'wp_enqueue_scripts', function(){
+	wp_register_script('animate', get_template_directory_uri().'/js/animate.js', array('jquery'));
+	
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('animate');
 	//wp_enqueue_script('mediaelement');
 	
 	wp_register_style('style', get_template_directory_uri().'/style.css');

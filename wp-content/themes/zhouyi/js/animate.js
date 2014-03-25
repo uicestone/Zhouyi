@@ -1,0 +1,9 @@
+jQuery(function(){
+	jQuery('.hoverable')
+		.mouseenter(function(){
+			jQuery(this).find('.cover').fadeIn(300);
+		})
+		.mouseleave(function(){
+			jQuery(this).find('.cover').fadeOut(300);
+		});
+})
