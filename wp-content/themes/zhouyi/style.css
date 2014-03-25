@@ -288,10 +288,6 @@ a{
 	opacity: 0.5;
 }
 
-.media-print .main li a:hover img{
-	opacity: 1;
-}
-
 /* media online
 ----------------------------------------------- */
 .media-online .main {
