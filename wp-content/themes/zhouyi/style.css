@@ -252,16 +252,20 @@ a{
 
 /* exhibition-projects
 ----------------------------------------------- */
-.exhibition-projects .main li {
-	float: left;
-	margin: 1% 0.5%;
+.exhibition-projects .main {
+	padding-right: 3.7%;
 }
 
 .exhibition-projects .main li {
-	width: 32%;
+	float: left;
+	margin: 0 2% 2% 0;
+}
+
+.exhibition-projects .main li {
+	width: 31%;
 }
 .exhibition-projects .main li.banner {
-	width: 96%;
+	width: 97%;
 }
 
 /*media
