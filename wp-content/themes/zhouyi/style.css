@@ -308,6 +308,11 @@ a{
 	position: absolute;
 	left: 35px;
 	bottom: 20px;
+	width: 120px
+}
+
+.sub-nav .artist-list li img {
+	width: 100%;
 }
 
 .artist .main {
