@@ -113,7 +113,7 @@ a{
 	width: 100%;
 }
 
-.home .right{
+.home .content>.right{
 	width: 24%;
 	height: 100%;
 	float: left;
@@ -121,16 +121,40 @@ a{
 	overflow-y: auto;
 }
 
-.home .right .intro {
+.home .content>.right .intro {
 	margin-top: 8%;
 }
 
-.home .right .intro p{
+.home .content>.right .intro p{
 	word-spacing: 0.2px;
 	padding-bottom: 10px;
 	font-size: 12px;
 	font-family: Calibri, sans-serif;
 	text-align: justify;
+}
+
+.home .content>.right>.links>.left, .home .right>.links>.right {
+	float: left;
+}
+
+.home .content>.right>.links>.left {
+	width: 35%;
+}
+
+.home .content>.right>.links>.left img {
+	display: block;
+	margin-bottom: 10px;
+	width: 70%;
+}
+
+.home .content>.right>.links>.right {
+	margin-left: 10%;
+	width: 55%;
+}
+
+.home .content>.right>.links>.right img {
+	display: block;
+	width: 40%;
 }
 
 /* category cover

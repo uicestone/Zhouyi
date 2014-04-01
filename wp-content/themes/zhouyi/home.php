@@ -53,12 +53,12 @@
 		</div>
 		<!--intro end-->
 		<div class="links">
-			<div class="lin_l">
+			<div class="left">
 				<p>Agent:<a href="" title=""><img src="<?=get_template_directory_uri()?>/images/logo_n.jpg" alt=""></a>
 					<a href="" title=""><img src="<?=get_template_directory_uri()?>/images/logo_p.jpg" alt=""></a>
 					<a href="" title=""><img src="<?=get_template_directory_uri()?>/images/logo_q.jpg" alt=""></a></p>
 			</div>
-			<div class="lin_r">
+			<div class="right">
 				<p>Yi Zhou is art director for :<a href=""><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
 				<p>Art fashion advisor member for :<a href=""><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
 				<p>Tencent Beauty & Fashion ambassador :<a href=""><img src="<?=get_template_directory_uri()?>/images/logo_n_3.jpg" alt=""></a></p>
