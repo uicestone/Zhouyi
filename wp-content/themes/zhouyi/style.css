@@ -34,7 +34,7 @@ a{
 /* nav
 ----------------------------------------------- */
 .header{
-	width: 142px;
+	width: 170px;
 	left: 0;
 	overflow-y: auto;
 }
@@ -79,7 +79,7 @@ a{
 }
 
 .sub-nav{
-	width: 180px;
+	width: 216px;
 	position: absolute;
 	padding-top: 20px;
 	top: 0;
@@ -94,7 +94,7 @@ a{
 /* content 
 ----------------------------------------------- */
 .content{
-	left: 142px;
+	left: 170px;
 	overflow-y: auto;
 	border-left: 2px solid #000;
 }
@@ -172,7 +172,7 @@ a{
 ----------------------------------------------- */
 .page .main{
 	position: absolute;
-	left: 180px;
+	left: 216px;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -352,4 +352,22 @@ a{
 
 .contact .address li:nth-child(2n+1){
 	width: 60%;
+}
+
+@media (max-width: 1024px) {
+	.header {
+		width: 142px;
+	}
+	
+	.content {
+		left: 142px;
+	}
+	
+	.sub-nav {
+		width: 180px;
+	}
+	
+	.page .main {
+		left: 180px;
+	}
 }

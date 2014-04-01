@@ -1,6 +1,6 @@
 .header {
 	overflow-y: scroll;
-	width: 160px;
+	width: 184px;
 }
 
 .nav li{
@@ -8,6 +8,16 @@
 }
 
 .content {
-	left: 146px;
+	left: 170px;
 	background-color: #FFF;
+}
+
+@media (max-width: 1024px) {
+	.header {
+		width: 156px;
+	}
+	
+	.content {
+		left: 142px;
+	}
 }
