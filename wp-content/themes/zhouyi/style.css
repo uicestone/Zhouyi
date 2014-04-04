@@ -45,7 +45,7 @@ a{
 
 .nav li{
 	text-align: center;
-	line-height: 21px;
+	line-height: 28px;
 	padding: 2px 0;
 	-webkit-transform: scale(0.8);
 }
@@ -96,7 +96,7 @@ a{
 .content{
 	left: 170px;
 	overflow-y: auto;
-	border-left: 2px solid #000;
+	border-left: 2px solid #676767;
 }
 
 /* home 
@@ -123,6 +123,26 @@ a{
 
 .home .content>.right .intro {
 	margin-top: 8%;
+}
+
+.home .content>.right .intro-language-switcher {
+	position: absolute;
+	right: 10px;
+	top: 4%;
+}
+
+.home .content>.right .intro-language-switcher>button {
+	height: 31px;
+	width: 31px;
+	border: none;
+}
+
+.home .content>.right .intro-language-switcher>button.zh-cn {
+	background-image: url('images/zh-cn.png');
+}
+
+.home .content>.right .intro-language-switcher>button.en {
+	background-image: url('images/en.png');
 }
 
 .home .content>.right .intro p{
