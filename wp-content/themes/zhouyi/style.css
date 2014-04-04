@@ -144,7 +144,8 @@ a{
 .home .content>.right>.links>.left img {
 	display: block;
 	margin-bottom: 10px;
-	width: 70%;
+	width: 90px;
+	max-width: 100%;
 }
 
 .home .content>.right>.links>.right {
@@ -154,7 +155,8 @@ a{
 
 .home .content>.right>.links>.right img {
 	display: block;
-	width: 40%;
+	width: 70px;
+	max-width: 100%;
 }
 
 /* category cover
