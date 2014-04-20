@@ -127,13 +127,13 @@ a{
 
 .home .content>.right .intro-language-switcher {
 	position: absolute;
-	right: 10px;
-	top: 4%;
+	right: 1%;
+	top: 3.2%;
 }
 
 .home .content>.right .intro-language-switcher>button {
-	height: 31px;
-	width: 31px;
+	height: 22px;
+	width: 22px;
 	border: none;
 }
 
