@@ -6,14 +6,14 @@
 		ShangHai Pyramis Point Ltd
 	</div>
 	<ul class="nav">
-		<li>
+		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/media-print/') !== false){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/media-print/">
 				Print Press
 				<br />
 				平面媒体
 			</a>
 		</li>
-		<li class="on">
+		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/media-online/') !== false){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/media-online/">
 				Online Press
 				<br />
