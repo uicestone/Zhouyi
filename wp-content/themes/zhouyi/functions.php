@@ -8,12 +8,14 @@
 register_nav_menu('artworks', '作品');
 register_nav_menu('media', '媒体');
 
-//add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-thumbnails' );
 
 /**
  * 添加一些缩略图标准
  */
 add_image_size( 'video-thumbnail', 600, 327, true );
+add_image_size( 'one-third-layout', 455, 0 );
+add_image_size( 'banner', 1423, 0 );
 
 /**
  * 自动的页面标题和favicon注入
@@ -32,7 +34,7 @@ add_action( 'wp_enqueue_scripts', function(){
 	
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('animate');
-	//wp_enqueue_script('mediaelement');
+	wp_enqueue_script('mediaelement');
 	
 	wp_register_style('style', get_template_directory_uri().'/style.css');
 	wp_register_style('windows', get_template_directory_uri().'/css/windows.css', array('style'));
