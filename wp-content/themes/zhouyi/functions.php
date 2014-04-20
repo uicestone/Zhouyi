@@ -14,8 +14,10 @@ add_theme_support( 'post-thumbnails' );
  * 添加一些缩略图标准
  */
 add_image_size( 'video-thumbnail', 600, 327, true );
-add_image_size( 'one-third-layout', 455, 0 );
 add_image_size( 'banner', 1423, 0 );
+add_image_size( 'one-second-layout', 690, 0 );
+add_image_size( 'one-third-layout', 455, 0 );
+add_image_size( 'one-fourth-layout', 256, 0 );
 
 /**
  * 自动的页面标题和favicon注入
