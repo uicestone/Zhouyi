@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="content">
-	<div class="main"></div>
+	<div class="cover"></div>
 	<div class="right">
 		<div class="intro-language-switcher">
 			<button type="button" class="zh-cn" target-lang="zh-cn"></button>

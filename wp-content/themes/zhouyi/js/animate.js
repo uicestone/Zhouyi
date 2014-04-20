@@ -26,5 +26,16 @@ $(function(){
 		});
 		
 	});
+	
+	$(function(){
+		$('.slider').responsiveSlides({
+			auto: true,
+			nav: true,
+			pause: true,
+			pauseControls: true,
+			prevText: '&nbsp;',
+			nextText: '&nbsp;'
+		});
+	});
 });
 })(jQuery);

@@ -39,15 +39,15 @@
 					Moon Prism 
 					Digital Entertainment Arts Ltd
 				</li>
-				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/artist/') !== false){ ?> class="on"<?php } ?>>
-					<a href="<?= site_url() ?>/artist/">
+				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/artists/') !== false){ ?> class="on"<?php } ?>>
+					<a href="<?= site_url() ?>/category/artists/">
 						Artist Line
 						<br />
 						艺术家系列
 					</a>
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/special/') !== false){ ?> class="on"<?php } ?>>
-					<a href="<?= site_url() ?>/special">
+					<a href="<?= site_url() ?>/category/special">
 						Special Projects
 						/
 						Crossover projects 
