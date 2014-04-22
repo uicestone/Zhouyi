@@ -96,7 +96,7 @@ a{
 .content{
 	left: 170px;
 	overflow-y: auto;
-	border-left: 2px solid #676767;
+	border-left: 1px solid #676767;
 }
 
 /* home 
@@ -143,6 +143,14 @@ a{
 
 .home .content>.right .intro-language-switcher>button.en {
 	background-image: url('images/en.png');
+}
+
+.home .content>.right .intro-language-switcher>button.zh-cn.active {
+	background-image: url('images/zh-cn_active.png');
+}
+
+.home .content>.right .intro-language-switcher>button.en.active {
+	background-image: url('images/en_active.png');
 }
 
 .home .content>.right .intro p{

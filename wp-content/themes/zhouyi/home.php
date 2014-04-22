@@ -4,7 +4,7 @@
 	<div class="right">
 		<div class="intro-language-switcher">
 			<button type="button" class="zh-cn" target-lang="zh-cn"></button>
-			<button type="button" class="en" target-lang="en"></button>
+			<button type="button" class="en active" target-lang="en"></button>
 		</div>
 		<div class="intro" lang="en">
 			<p>
