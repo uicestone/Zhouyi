@@ -12,7 +12,7 @@ ol, ul {
 }
 
 body {
-	font-family: Futura, Calibri, FZXiaoBiaoSong, STZhongsong, SimSun, sans-serif;
+	font-family: Futura, Calibri, FZXiaoBiaoSong/*, STZhongsong*/, SimHei, SimSun, sans-serif;
 	font-size: 12px;
 }
 
@@ -46,26 +46,32 @@ a{
 
 .nav li{
 	text-align: center;
-	line-height: 28px;
-	padding: 2px 0;
-	-webkit-transform: scale(0.8);
+	line-height: 25px;
+	padding: 2px 5%;
+	font-size: 10px;
 }
 
 .nav li.logo{
-	padding: 10px 0;
 	line-height: 15px;
+	margin: 30px 0 15px;
 }
 
-.nav li.logo img{
+.nav li img{
+	width: 45px;
 	margin-bottom: 5px;
 }
 
-.nav li.logo:first-child{
-	padding: 0;
+.nav li p {
+	margin: 0;
 }
 
 .nav li a{
 	color: #888;
+	display: block;
+}
+
+.nav li a, .nav li p {
+	-webkit-transform: scale(0.8);
 }
 
 .nav li.on a{
@@ -84,12 +90,26 @@ a{
 	position: absolute;
 	padding-top: 20px;
 	top: 0;
-	bottom: 20%;
+	bottom: 0;
 	overflow: auto;
+}
+
+.sub-nav .verticle-center {
+	position: absolute;
+	height: 250px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .sub-nav .logo{
 	margin-bottom:150px;
+}
+
+.sub-nav li.on a {
+	font-weight: normal;
 }
 
 /* content 
@@ -128,7 +148,7 @@ a{
 
 .home .content>.right .intro-language-switcher {
 	position: absolute;
-	right: 1%;
+	right: 2%;
 	top: 3.2%;
 }
 
@@ -136,6 +156,7 @@ a{
 	height: 22px;
 	width: 22px;
 	border: none;
+	outline: none;
 }
 
 .home .content>.right .intro-language-switcher>button.zh-cn {
@@ -432,4 +453,8 @@ a{
 	.page .main {
 		left: 180px;
 	}
+}
+
+#fancybox-outer {
+	background: transparent !important;
 }

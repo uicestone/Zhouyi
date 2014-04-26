@@ -1,10 +1,10 @@
 .header {
 	overflow-y: scroll;
-	width: 184px;
+	width: 185px;
 }
 
 .nav li{
-	-webkit-transform: scale(1);
+	/*-webkit-transform: scale(1);*/
 }
 
 .content {

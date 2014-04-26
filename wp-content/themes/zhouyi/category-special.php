@@ -5,12 +5,12 @@
 		<ul>
 			<?php while(have_posts()): the_post(); ?>
 			<li class="hoverable">
-				<a href="#">
+				<a href="<?php the_permalink(); ?>" class="fancybox">
 					<?php the_post_thumbnail('one-second-layout'); ?>
+					<div class="cover">
+						<?php the_content(); ?>
+					</div>
 				</a>
-				<div class="cover">
-					<?php the_content(); ?>
-				</div>
 			</li>
 			<?php endwhile; ?>
 		</ul>

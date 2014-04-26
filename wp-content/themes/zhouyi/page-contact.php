@@ -6,26 +6,28 @@
 			<li>
 				YI ZHOU STUDIO
 				<br>
-				<a href="">
+				<a href="mailto:studio@yi-yo.net">
 					studio@yi-yo.net
-					<br>The Mansion, Block 1, 457 Shanxi Rd (N), Shanghai</a>
+					<br>The Mansion, Block 1, 457 Shanxi Rd (N), Shanghai
+				</a>
 			</li>
 			<li>
 				<a href="">GALLERY REPRESENTATION:</a>
 				<br>
 				ShangHai:
-				<a href="">
+				<a href="http://www.pearllam.com" target="_blank">
 					PEAR LAM GALLERIES
-					<br>www.pearllam.com</a>
+					<br>www.pearllam.com
+				</a>
 			</li>
 			<li>
 				PRESS CONTACT
-				<a href="">Press@yi-yo.net</a>
+				<a href="mailto:press@yi-yo.net">Press@yi-yo.net</a>
 
 			</li>
 			<li>
 				HongKong:
-				<a href="">
+				<a href="http://www.hanart.com" target="_blank">
 					HANART TZ GALLERY
 					<br>www.hanart.com</a>
 			</li>

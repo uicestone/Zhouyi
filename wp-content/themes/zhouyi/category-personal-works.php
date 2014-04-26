@@ -5,10 +5,10 @@
 		<ul>
 			<?php while(have_posts()): the_post();?>
 			<li class="hoverable">
-				<a href="<?php $children = get_children(get_the_ID()); echo wp_get_attachment_url(array_shift($children)->ID); ?>" target="_blank">
+				<a href="<?php the_permalink(); ?>" target="_blank" class="fancybox">
 					<?php the_post_thumbnail('video-thumbnail'); ?>
 					<div class="cover">
-						<?php the_content(); ?>
+						<?php the_excerpt(); ?>
 					</div>
 				</a>
 			</li>
