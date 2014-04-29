@@ -16,6 +16,7 @@ add_theme_support( 'post-thumbnails' );
 add_image_size( 'video-thumbnail', 600, 327, true );
 add_image_size( 'banner', 1423, 0 );
 add_image_size( 'one-second-layout', 690, 518, true );
+add_image_size( 'one-second-layout-narrow', 556, 518, true );
 add_image_size( 'one-third-layout', 455, 643, true );
 add_image_size( 'one-fourth-layout', 256, 362, true );
 

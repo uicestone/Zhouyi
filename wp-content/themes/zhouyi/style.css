@@ -406,13 +406,17 @@ a{
 /* special
 ----------------------------------------------- */
 .special .main li {
-	width: 45%;
-	margin-right: 3%;
+	width: 38%;
+	margin-right: 5%;
 	margin-bottom: 3%;
 }
 
 .special .main li:nth-child(2n+1) {
 	clear: left;
+}
+
+.special .main li.odd {
+	width: 47.2%
 }
 
 /* contact
