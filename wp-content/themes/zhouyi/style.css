@@ -130,7 +130,7 @@ a{
 	float:left;
 	width: 60.4%;
 	height: 100%;
-	background: url('images/index_pic.jpg') top center;
+	background-position: top center;
 	background-size: cover;
 }
 
