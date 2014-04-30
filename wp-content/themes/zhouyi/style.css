@@ -124,7 +124,21 @@ a{
 	border-left: 1px solid #676767;
 }
 
-/* home 
+/* landing page
+----------------------------------------------- */
+body.home {
+	background: #000;
+}
+
+body.home img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -65px;
+	margin-left: -100px;
+}
+
+/* home page
 ----------------------------------------------- */
 .home .cover{
 	float:left;
@@ -138,7 +152,7 @@ a{
 	width: 100%;
 }
 
-.home .content>.right{
+.home.content>.right{
 	width: 24%;
 	height: 100%;
 	float: left;
@@ -146,40 +160,40 @@ a{
 	overflow-y: auto;
 }
 
-.home .content>.right .intro {
+.home.content>.right .intro {
 	margin-top: 8%;
 }
 
-.home .content>.right .intro-language-switcher {
+.home.content>.right .intro-language-switcher {
 	position: absolute;
 	right: 2%;
 	top: 3.2%;
 }
 
-.home .content>.right .intro-language-switcher>button {
+.home.content>.right .intro-language-switcher>button {
 	height: 22px;
 	width: 22px;
 	border: none;
 	outline: none;
 }
 
-.home .content>.right .intro-language-switcher>button.zh-cn {
+.home.content>.right .intro-language-switcher>button.zh-cn {
 	background-image: url('images/zh-cn.png');
 }
 
-.home .content>.right .intro-language-switcher>button.en {
+.home.content>.right .intro-language-switcher>button.en {
 	background-image: url('images/en.png');
 }
 
-.home .content>.right .intro-language-switcher>button.zh-cn.active {
+.home.content>.right .intro-language-switcher>button.zh-cn.active {
 	background-image: url('images/zh-cn_active.png');
 }
 
-.home .content>.right .intro-language-switcher>button.en.active {
+.home.content>.right .intro-language-switcher>button.en.active {
 	background-image: url('images/en_active.png');
 }
 
-.home .content>.right .intro p{
+.home.content>.right .intro p{
 	word-spacing: 0.2px;
 	padding-bottom: 10px;
 	font-size: 12px;
@@ -187,27 +201,27 @@ a{
 	text-align: justify;
 }
 
-.home .content>.right>.links>.left, .home .right>.links>.right {
+.home.content>.right>.links>.left, .home .right>.links>.right {
 	float: left;
 }
 
-.home .content>.right>.links>.left {
+.home.content>.right>.links>.left {
 	width: 35%;
 }
 
-.home .content>.right>.links>.left img {
+.home.content>.right>.links>.left img {
 	display: block;
 	margin-bottom: 10px;
 	width: 90px;
 	max-width: 100%;
 }
 
-.home .content>.right>.links>.right {
+.home.content>.right>.links>.right {
 	margin-left: 10%;
 	width: 55%;
 }
 
-.home .content>.right>.links>.right img {
+.home.content>.right>.links>.right img {
 	display: block;
 	width: 70px;
 	max-width: 100%;

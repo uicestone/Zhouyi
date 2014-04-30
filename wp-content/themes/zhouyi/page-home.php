@@ -3,7 +3,7 @@ $intro_en = array_pop(get_posts(array('name'=>'intro-en')));
 $intro_cn = array_pop(get_posts(array('name'=>'intro-cn')));
 get_header();
 ?>
-<div class="content">
+<div class="content home">
 	<div class="cover" style="background-image: url('<?=wp_get_attachment_url(get_post_thumbnail_id($intro_en->ID))?>')"></div>
 	<div class="right">
 		<div class="intro-language-switcher">
