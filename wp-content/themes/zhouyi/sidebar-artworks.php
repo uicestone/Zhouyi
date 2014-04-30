@@ -27,6 +27,15 @@
 			<li<?php if($_GET['tag'] === '2012'){ ?> class="on"<?php } ?>>
 				<a href="?tag=2012">2012</a>
 			</li>
+			<li<?php if($_GET['tag'] === '2011'){ ?> class="on"<?php } ?>>
+				<a href="?tag=2011">2011</a>
+			</li>
+			<li<?php if($_GET['tag'] === '2010'){ ?> class="on"<?php } ?>>
+				<a href="?tag=2012">2010</a>
+			</li>
+			<li<?php if($_GET['tag'] === 'earlier'){ ?> class="on"<?php } ?>>
+				<a href="?tag=earlier">Earlier</a>
+			</li>
 		</ul>
 	</div>
 </div>
