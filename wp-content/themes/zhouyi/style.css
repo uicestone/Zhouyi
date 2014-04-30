@@ -108,6 +108,10 @@ a{
 	margin-bottom:150px;
 }
 
+.sub-nav .logo img {
+	width: 60px;
+}
+
 .sub-nav li.on a {
 	font-weight: normal;
 }

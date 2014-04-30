@@ -1,7 +1,6 @@
 <div class="sub-nav">
 	<div class="logo">
-		<img src="<?=get_template_directory_uri()?>
-		/images/logo3.gif" >
+		<img src="<?=get_template_directory_uri()?>/images/logo3.png" >
 		<br />
 		Moon Prism
 		<br>
