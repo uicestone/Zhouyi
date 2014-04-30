@@ -1,6 +1,6 @@
 .header {
 	overflow-y: scroll;
-	width: 185px;
+	width: 186px;
 }
 
 .nav li{
@@ -14,7 +14,7 @@
 
 @media (max-width: 1024px) {
 	.header {
-		width: 156px;
+		width: 158px;
 	}
 	
 	.content {
