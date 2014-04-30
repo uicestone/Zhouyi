@@ -5,7 +5,8 @@
 		<ul>
 			<?php while(have_posts()): the_post(); ?>
 			<li class="hoverable">
-				<a href="<?php the_permalink(); ?>" class="fancybox">
+				<?php $has_content = get_the_content() !== '' ?>
+				<a href="<?=$has_content ? get_the_permalink(get_the_ID()) : wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()))?>" class="fancybox">
 					<?php the_post_thumbnail('large-thumbnail'); ?>
 					<div class="cover">
 						<?php the_excerpt(); ?>
