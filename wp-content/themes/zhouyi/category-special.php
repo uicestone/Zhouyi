@@ -6,9 +6,9 @@
 			<?php while(have_posts()): the_post(); ?>
 			<li class="hoverable">
 				<a href="<?php the_permalink(); ?>" class="fancybox">
-					<?php the_post_thumbnail('one-second-layout'); ?>
+					<?php the_post_thumbnail('large-thumbnail'); ?>
 					<div class="cover">
-						<?php the_content(); ?>
+						<?php the_excerpt(); ?>
 					</div>
 				</a>
 			</li>
