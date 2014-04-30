@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="content contact">
 	<div class="map">
-		<img src="<?=get_template_directory_uri()?>/images/map.jpg" width="100%" >
+		<a href="http://j.map.baidu.com/e2rFr" target="_blank"><img src="<?=get_template_directory_uri()?>/images/map.jpg" width="100%" ></a>
 		<ul class="address">
 			<li>
 				YI ZHOU STUDIO
