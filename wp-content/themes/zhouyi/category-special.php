@@ -4,11 +4,11 @@
 	<div class="main">
 		<ul>
 			<?php while(have_posts()): the_post(); ?>
-			<li class="hoverable<?php if($wp_query->current_post % 2 === 1){?> odd<?php } ?>">
+			<li class="hoverable">
 				<a href="<?php the_permalink(); ?>" class="fancybox">
-					<?php the_post_thumbnail($wp_query->current_post % 2 === 1 ? 'one-second-layout': 'one-second-layout-narrow'); ?>
+					<?php the_post_thumbnail('one-second-layout'); ?>
 					<div class="cover">
-						<?php the_excerpt(); ?>
+						<?php the_content(); ?>
 					</div>
 				</a>
 			</li>
