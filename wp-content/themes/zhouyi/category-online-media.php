@@ -5,7 +5,7 @@
 		<ul class="">
 			<?php while(have_posts()): the_post(); ?>
 			<li>
-				<a href="<?=wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()))?>" target="_blank"><?php the_post_thumbnail('one-second-layout'); ?></a>
+				<a href="<?=wp_get_attachment_url(get_post_thumbnail_id(get_the_ID()))?>" target="_blank"><?php the_post_thumbnail('large-thumbnail'); ?></a>
 			</li>
 			<?php endwhile; ?>
 		</ul>
