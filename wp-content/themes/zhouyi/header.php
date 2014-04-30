@@ -13,8 +13,7 @@
 		<div class="header">
 			<ul class="nav">
 				<li class="logo">
-					<img src="<?= get_template_directory_uri() ?>/images/logo1.gif" >
-					<a href="/">Yi Zhou Studio</a>
+					<img src="<?= get_template_directory_uri() ?>/images/logo1.png" style="width:110px;">
 				</li>
 				<li<?php if($_SERVER['REQUEST_URI'] === '/'){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>">
@@ -30,7 +29,7 @@
 						作品
 					</a>
 				</li>
-				<li class="logo"><img src="<?= get_template_directory_uri() ?>/images/logo2.gif" >
+				<li class="logo"><img src="<?= get_template_directory_uri() ?>/images/logo2.png" >
 					<p>ShangHai Pyramis Point Ltd</p>
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/media/') !== false){ ?> class="on"<?php } ?>>
@@ -41,7 +40,7 @@
 					</a>
 				</li>
 				<li class="logo">
-					<img src="<?= get_template_directory_uri() ?>/images/logo3.gif" >
+					<img src="<?= get_template_directory_uri() ?>/images/logo3.png" >
 					<p>Moon Prism<br />Digital Entertainment Arts Ltd</p>
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/artists/') !== false){ ?> class="on"<?php } ?>>
@@ -69,7 +68,7 @@
 					</a>
 				</li>
 				<li class="logo">
-					<img src="<?= get_template_directory_uri() ?>/images/logo4.gif" >
+					<img src="<?= get_template_directory_uri() ?>/images/logo4.png" >
 				</li>
 			</ul>
 
