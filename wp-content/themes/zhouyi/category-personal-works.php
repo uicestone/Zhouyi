@@ -5,7 +5,7 @@
 		<ul>
 			<?php while(have_posts()): the_post();?>
 			<li class="hoverable">
-				<a href="<?php the_permalink(); ?>" target="_blank" class="fancybox">
+				<a href="<?php the_permalink(); ?>" target="_blank" class="fancybox video-thumbnail">
 					<?php the_post_thumbnail('video-thumbnail'); ?>
 					<div class="cover">
 						<?php the_excerpt(); ?>

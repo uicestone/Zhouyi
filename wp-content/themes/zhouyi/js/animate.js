@@ -36,5 +36,8 @@ $(function(){
 		prevText: '&nbsp;',
 		nextText: '&nbsp;'
 	});
+	
+	$('.video-thumbnail').append('<div class="play-icon"></div>');
+	
 });
 })(jQuery);
