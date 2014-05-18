@@ -10,7 +10,14 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-		<a href="<?=site_url()?>/home/"><img src="<?=get_stylesheet_directory_uri()?>/images/logo_white.png" /></a>
+		<a href="<?=site_url()?>/home/" class="front-page-logo" style="display:none"><img src="<?=get_stylesheet_directory_uri()?>/images/logo_white.png" /></a>
+		<script type="text/javascript">
+			(function($){
+				$(function(){
+					$('.front-page-logo').show(10000);
+				});
+			})(jQuery);
+		</script>
 		<?php wp_footer(); ?>
 	</body>
 </html>
