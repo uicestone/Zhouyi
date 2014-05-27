@@ -2,10 +2,11 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
 		<title>周依</title>
 		<link rel="shortcut icon" href="<?=site_url()?>/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="<?=site_url()?>/favicon.ico" type="image/x-icon">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
 		<?php wp_head(); ?>
 	</head>
 

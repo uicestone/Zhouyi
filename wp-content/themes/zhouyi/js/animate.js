@@ -39,5 +39,7 @@ $(function(){
 	
 	$('.video-thumbnail').append('<div class="play-icon"></div>');
 	
+	document.requestFullscreen();
+	
 });
 })(jQuery);
