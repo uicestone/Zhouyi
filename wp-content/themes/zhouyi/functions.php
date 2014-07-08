@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', function(){
 	wp_register_script('animate', get_template_directory_uri().'/js/animate.js', array('jquery'));
 	wp_register_script('responsiveslides', get_template_directory_uri().'/js/responsiveslides.min.js', array('jquery'));
 	
-	wp_register_style('style', get_template_directory_uri().'/style.css');
+	wp_register_style('style', get_template_directory_uri().'/style.css', array(), '2014-07');
 	wp_register_style('windows', get_template_directory_uri().'/css/windows.css', array('style'));
 	wp_register_style('responsiveslides', get_template_directory_uri().'/css/responsiveslides.css');
 	
