@@ -16,7 +16,7 @@
 				<li class="logo">
 					<a href="<?=site_url()?>" style="-webkit-transform:scale(1);"><img src="<?= get_template_directory_uri() ?>/images/logo1.png" style="width:110px;"></a>
 				</li>
-				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/home/')){ ?> class="on"<?php } ?>>
+				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/home/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/home/">
 						Biography
 						<br />
