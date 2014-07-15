@@ -201,6 +201,11 @@ body.home img {
 	text-align: justify;
 }
 
+.home.content>.right .intro h2, .home.content>.right .intro h3 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
 .home.content>.right>.links>.left, .home .right>.links>.right {
 	float: left;
 }
