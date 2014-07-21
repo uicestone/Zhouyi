@@ -433,6 +433,11 @@ body.home img {
 
 .sub-nav .artist-list li img {
 	width: 100%;
+	opacity: 0.4;
+}
+
+.sub-nav .artist-list li.active img {
+	opacity: 1 !important;
 }
 
 .artist .main {
