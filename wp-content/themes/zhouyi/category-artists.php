@@ -25,6 +25,11 @@ jQuery(function($){
 			$('.main div').fadeOut(100);
 			$('.main #' + artist).fadeIn(400);
 		});
+	
+	var hash = window.location.hash.substr(1);
+	
+	$('.main #' + hash).show();
+	
 });
 </script>
 <?php get_footer(); ?>

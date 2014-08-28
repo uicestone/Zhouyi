@@ -8,16 +8,16 @@
 	</div>
 	<ul class="artist-list">
 		<li data-artist="iceberg" class="active">
-			<img src="<?= get_template_directory_uri() ?>/images/artist_iceberg.png">
+			<a href="<?=site_url()?>/category/artists/#iceberg"><img src="<?= get_template_directory_uri() ?>/images/artist_iceberg.png"></a>
 		</li>
 		<li data-artist="gripoix">
-			<img src="<?= get_template_directory_uri() ?>/images/artist_gripoix.png">
+			<a href="<?=site_url()?>/category/artists/#gripoix"><img src="<?= get_template_directory_uri() ?>/images/artist_gripoix.png"></a>
 		</li>
 		<li data-artist="yoox">
-			<img src="<?= get_template_directory_uri() ?>/images/yoox.png">
+			<a href="<?=site_url()?>/category/artists/#yoox"><img src="<?= get_template_directory_uri() ?>/images/yoox.png"></a>
 		</li>
 		<li data-artist="each-x-other">
-			<img src="<?= get_template_directory_uri() ?>/images/artist_each-x-other.png">
+			<a href="<?=site_url()?>/category/artists/#each-x-other"><img src="<?= get_template_directory_uri() ?>/images/artist_each-x-other.png"></a>
 		</li>
 	</ul>
 </div>
