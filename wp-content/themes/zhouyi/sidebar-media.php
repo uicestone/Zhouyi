@@ -23,23 +23,16 @@
 
 		</ul>
 		<ul class="nav">
-			<li<?php if($_GET['tag'] === '2014'){ ?> class="on"<?php } ?>>
-				<a href="?tag=2014">2014</a>
+			<?php
+			$category_name = $category_name ? $category_name : get_the_category()[0]->slug;
+			for($year = date('Y'); $year >= '2010'; $year --){
+			?>
+			<li<?php if(intval($_GET['tag']) === $year){ ?> class="on"<?php } ?>>
+				<a href="<?=site_url()?>/category/<?=$category_name?>/?tag=<?=$year?>"><?=$year?></a>
 			</li>
-			<li<?php if($_GET['tag'] === '2013'){ ?> class="on"<?php } ?>>
-				<a href="?tag=2013">2013</a>
-			</li>
-			<li<?php if($_GET['tag'] === '2012'){ ?> class="on"<?php } ?>>
-				<a href="?tag=2012">2012</a>
-			</li>
-			<li<?php if($_GET['tag'] === '2011'){ ?> class="on"<?php } ?>>
-				<a href="?tag=2011">2011</a>
-			</li>
-			<li<?php if($_GET['tag'] === '2010'){ ?> class="on"<?php } ?>>
-				<a href="?tag=2012">2010</a>
-			</li>
-			<li<?php if($_GET['tag'] === 'earlier'){ ?> class="on"<?php } ?>>
-				<a href="?tag=earlier">Earlier</a>
+			<?php } ?>
+			<li<?php if($_GET['tag'] === 'before'){ ?> class="on"<?php } ?>>
+				<a href="<?=site_url()?>/category/<?=$category_name?>/?tag=before">Before</a>
 			</li>
 		</ul>
 	</div>

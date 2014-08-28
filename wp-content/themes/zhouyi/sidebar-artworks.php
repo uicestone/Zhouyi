@@ -20,7 +20,7 @@
 		<ul class="nav">
 			<?php for($year = date('Y'); $year >= '2004'; $year --){ ?>
 			<?php if(in_array($year, array('2007', '2012')) && strpos($_SERVER['REQUEST_URI'], '/personal-works/') !== false) continue; ?>
-			<li<?php if($_GET['tag'] === $year){ ?> class="on"<?php } ?>>
+			<li<?php if(intval($_GET['tag']) === $year){ ?> class="on"<?php } ?>>
 				<a href="?tag=<?=$year?>"><?=$year?></a>
 			</li>
 			<?php } ?>
