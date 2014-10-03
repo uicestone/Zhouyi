@@ -505,3 +505,15 @@ body.home img {
 #fancybox-outer {
 	background: transparent !important;
 }
+
+#cnzz_stat_icon_1253260523 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	-webkit-transform: scale(0.8);
+}
+
+#cnzz_stat_icon_1253260523 a {
+	color: #AAA;
+	font-size: 80%;
+}
