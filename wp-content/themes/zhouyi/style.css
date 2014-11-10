@@ -506,6 +506,10 @@ body.home img {
 	background: transparent !important;
 }
 
+#fancybox-content>div {
+	overflow: hidden !important;
+}
+
 #cnzz_stat_icon_1253260523 {
 	position: absolute;
 	right: 0;
