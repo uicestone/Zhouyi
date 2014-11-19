@@ -16,8 +16,7 @@ get_header();
 		<div class="intro" lang="zh-cn" style="display: none;">
 			<?=wpautop($intro_cn->post_content)?>
 		</div>
-		<!--intro end-->
-		<div class="links">
+		<div class="links" lang="en">
 			<div class="left">
 				<p>
 					Agent:
@@ -32,6 +31,23 @@ get_header();
 				<p>Yi Zhou is art director for<a href="http://www.tudou.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/tudou.png" alt=""></a></p>
 				<p>Art fashion advisor member for<a href="http://www.sina.com.cn" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
 				<p>Tencent Beauty & Fashion ambassador :<a href="http://www.qq.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_3.jpg" alt=""></a></p>
+			</div>
+		</div>
+		<div class="links" lang="zh-cn" style="display: none;">
+			<div class="left">
+				<p>
+					代理公司:
+					<a href="http://www.nextmodels.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.nextmodels.com.png" alt=""></a>
+					<a href="http://www.creativeexchangeagency.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.creativeexchangeagency.com.png" alt=""></a>
+					<a href="http://www.lagente.in" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.lagente.in.png" alt=""></a>
+					<a href="http://www.finchandpartners.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.finchandpartners.com.png" alt=""></a>
+					<a href="" target="_blank"><img src="<?=get_template_directory_uri()?>/images/EMG-logo.png" alt=""></a>
+				</p>
+			</div>
+			<div class="right">
+				<p>土豆艺术总监<a href="http://www.tudou.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/tudou.png" alt=""></a></p>
+				<p>新浪时尚艺术顾问<a href="http://www.sina.com.cn" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
+				<p>腾讯美容大使<a href="http://www.qq.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_3.jpg" alt=""></a></p>
 			</div>
 		</div>
 		<?php foreach(array('en', 'zh-cn') as $lang){ ?>

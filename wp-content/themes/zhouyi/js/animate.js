@@ -20,8 +20,8 @@ $(function(){
 		
 		var targetLang = $(this).attr('target-lang');
 		
-		$('.intro[lang!="' + targetLang + '"]').fadeOut(300, function(){
-			$('.intro[lang="' + targetLang + '"]').fadeIn(300);
+		$('.intro[lang!="' + targetLang + '"], .links[lang!="' + targetLang + '"]').fadeOut(300, function(){
+			$('.intro[lang="' + targetLang + '"], .links[lang="' + targetLang + '"]').fadeIn(300);
 		});
 		
 		$('.' + targetLang).addClass('active').siblings(':button').removeClass('active');
