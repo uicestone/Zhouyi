@@ -23,7 +23,7 @@ get_header();
 					<a href="http://www.nextmodels.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.nextmodels.com.png" alt=""></a>
 					<a href="http://www.creativeexchangeagency.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.creativeexchangeagency.com.png" alt=""></a>
 					<a href="http://www.lagente.in" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.lagente.in.png" alt=""></a>
-					<a href="http://www.finchandpartners.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.finchandpartners.com.png" alt=""></a>
+					<a href="http://www.finchandpartners.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/www.finchandpartners.com.png?v=2" alt=""></a>
 					<a href="" target="_blank"><img src="<?=get_template_directory_uri()?>/images/EMG-logo.png" alt=""></a>
 				</p>
 			</div>
