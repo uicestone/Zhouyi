@@ -57,7 +57,7 @@
 						/<br />
 						Crossover projects <br />
 						with<br />
-						brand<br />
+						brands<br />
 						特殊项目
 					</a>
 				</li>

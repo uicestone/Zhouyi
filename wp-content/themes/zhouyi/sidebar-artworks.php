@@ -25,7 +25,7 @@
 			</li>
 			<?php } ?>
 			<li<?php if($_GET['tag'] === 'before'){ ?> class="on"<?php } ?>>
-				<a href="?tag=before">Before</a>
+				<a href="?tag=before">Earlier</a>
 			</li>
 		</ul>
 	</div>

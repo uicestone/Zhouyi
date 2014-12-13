@@ -32,7 +32,7 @@
 			</li>
 			<?php } ?>
 			<li<?php if($_GET['tag'] === 'before'){ ?> class="on"<?php } ?>>
-				<a href="<?=site_url()?>/category/<?=$category_name?>/?tag=before">Before</a>
+				<a href="<?=site_url()?>/category/<?=$category_name?>/?tag=before">Earlier</a>
 			</li>
 		</ul>
 	</div>
