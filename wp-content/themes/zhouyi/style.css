@@ -46,9 +46,8 @@ a{
 
 .nav li{
 	text-align: center;
-	line-height: 25px;
-	padding: 2px 5%;
-	font-size: 10px;
+	line-height: 21px;
+	padding: 15px 5%;
 }
 
 .nav li.logo{
@@ -65,13 +64,15 @@ a{
 	margin: 0;
 }
 
-.nav li a{
+.nav li a {
 	color: #888;
 	display: block;
+	font-family: Futura, Calibri, Yuanti SC, YouYuan, SimHei, SimSun, sans-serif;
+	font-weight: lighter;
 }
 
-.nav li a, .nav li p {
-	-webkit-transform: scale(0.8);
+.nav li a .chinese {
+	letter-spacing: 5px;
 }
 
 .nav li.on a{
@@ -349,6 +350,27 @@ body.home img {
 	background-image: url('images/artworks_bg_1407.jpg');
 }
 
+.artworks .nav {
+	min-width: 1000px;
+	position: absolute;
+	top: 50%;
+	margin-top: -56px;
+	margin-left: -471px;
+	left: 50%;
+}
+
+.artworks .nav li {
+	float: left;
+}
+
+.artworks .nav li:first-child {
+	margin: 0;
+}
+
+.artworks .nav li a {
+	color: #C2C2C2;
+}
+
 /* personal work
 ----------------------------------------------- */
 .personal-work .main ul{
@@ -429,6 +451,10 @@ body.home img {
 	left: 35px;
 	bottom: 20px;
 	width: 120px
+}
+
+.sub-nav .artist-list li {
+	margin-bottom: 70px;
 }
 
 .sub-nav .artist-list li img {
