@@ -161,15 +161,13 @@
 }
 
 #fancybox-left-ico {
-/*	background-image: url('fancybox.png');
-	background-position: -40px -30px;*/
-	background-image: url('previous.png');
+	background-image: url('fancybox.png');
+	background-position: -40px -30px;
 }
 
 #fancybox-right-ico {
-/*	background-image: url('fancybox.png');
-	background-position: -40px -60px;*/
-	background-image: url('next.png');
+	background-image: url('fancybox.png');
+	background-position: -40px -60px;
 }
 
 #fancybox-left:hover, #fancybox-right:hover {
@@ -195,7 +193,7 @@
 	z-index: 100001;
 }
 
-/*#fancybox-bg-n {
+#fancybox-bg-n {
 	top: -20px;
 	left: 0;
 	width: 100%;
@@ -251,7 +249,7 @@
 	left: -20px;
 	background-image: url('fancybox.png');
 	background-position: -40px -122px;
-}*/
+}
 
 #fancybox-title {
 	font-family: Helvetica;
@@ -323,7 +321,7 @@
 }
 
 /* IE6 */
-/*
+
 .fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_close.png', sizingMethod='scale'); }
 
 .fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_left.png', sizingMethod='scale'); }
@@ -344,9 +342,9 @@
 }
 
 #fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png', sizingMethod='scale'); }
-*/
+
 /* IE6, IE7, IE8 */
-/*
+
 .fancybox-ie .fancybox-bg { background: transparent !important; }
 
 .fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
@@ -357,4 +355,3 @@
 .fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
 .fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
 .fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
-*/
