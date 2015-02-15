@@ -12,7 +12,7 @@
 			</a>
 		</li>
 	</ul>
-	<ul class="artist-list">
+	<ul class="artist-list" style="display:none">
 		<li data-artist="each-x-other">
 			<a href="<?=site_url()?>/category/artists/#each-x-other"><img src="<?= get_template_directory_uri() ?>/images/artist_each-x-other.png"></a>
 		</li>

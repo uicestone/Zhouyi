@@ -1,9 +1,12 @@
 <div class="sub-nav">
-	<div class="logo">
-		<img src="<?=get_template_directory_uri()?>/images/logo3.png" >
-		<br />
-		Moon Prism <br />
-Digital Entertainment Arts Ltd
-	</div>
+	<ul class="nav logo">
+		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/special/') !== false){ ?> class="on"<?php } ?>>
+			<a href="<?=site_url()?>/category/special/">
+				Special Projects
+				<br />
+				<span class="chinese">特殊项目</span>
+			</a>
+		</li>
+	</ul>
 </div>
 <!--sub-nav end-->
