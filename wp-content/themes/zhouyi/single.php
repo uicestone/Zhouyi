@@ -3,7 +3,15 @@ if($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest'){
 	the_post(); the_content();
 }
 else{
-	$current_category_name = strpos(get_the_category()[0]->slug, 'print-press') !== false ? 'media' : 'artist';
+	if(strpos(get_the_category()[0]->slug, 'print-press') !== false){
+		$current_category_name = 'media';
+	}
+	elseif(strpos(get_the_category()[0]->slug, 'artist') !== false){
+		$current_category_name = 'artist';
+	}
+	elseif(strpos(get_the_category()[0]->slug, 'crossover') !== false){
+		$current_category_name = 'crossover';
+	}
 	get_header();
 ?>
 

@@ -1,7 +1,7 @@
 <div class="sub-nav">
 	<ul class="nav logo">
 		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/media/') !== false){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/media/">
+			<a href="<?=site_url()?>/media/">
 				Press
 				<br />
 				<span class="chinese">媒体</span>

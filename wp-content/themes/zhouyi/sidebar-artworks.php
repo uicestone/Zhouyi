@@ -1,7 +1,7 @@
 <div class="sub-nav">
 	<ul class="nav logo">
 		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/artworks/') !== false){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/artworks/">
+			<a href="<?=site_url()?>/artworks/">
 				Art Works
 				<br />
 				<span class="chinese">作品</span>
