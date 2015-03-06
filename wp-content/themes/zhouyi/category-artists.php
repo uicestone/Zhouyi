@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="content artist">
-	<?php get_sidebar('artist'); ?>
+	<?php get_sidebar('artists'); ?>
 	<style>
 		.artist-table {
 			position: absolute;

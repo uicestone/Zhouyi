@@ -1,27 +1,28 @@
 <?php
+
+$category_slugs = array();
+
+foreach(get_the_category() as $category){
+	$category_slugs[] = $category->slug;
+	if(!$category->parent){
+		$root_category_slug = $category->slug;
+	}
+}
+
 if($_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest'){
 	the_post(); the_content();
 }
 else{
-	if(strpos(get_the_category()[0]->slug, 'print-press') !== false){
-		$current_category_name = 'media';
-	}
-	elseif(strpos(get_the_category()[0]->slug, 'artist') !== false){
-		$current_category_name = 'artist';
-	}
-	elseif(strpos(get_the_category()[0]->slug, 'crossover') !== false){
-		$current_category_name = 'crossover';
-	}
 	get_header();
 ?>
 
-<div class="content <?=get_the_category()[0]->slug?>">
-	<?php get_sidebar($current_category_name); ?>
+<div class="content <?=$root_category_slug?>">
+	<?php get_sidebar($root_category_slug); ?>
 	<div class="main">
 		<?php the_post(); the_content(); ?>
 	</div>
 </div>
-<?php if($current_category_name === 'artist'){ ?>
+<?php if($root_category_slug === 'artists'){ ?>
 <script>
 jQuery(function($){
 	$('.main>div:first').fadeIn(500);
