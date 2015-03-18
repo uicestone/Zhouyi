@@ -10,35 +10,35 @@
 	</ul>
 	<ul class="nav">
 		<li<?php if($category_name === 'videos-animation'){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/videos-animation/">
+			<a href="<?=site_url()?>/category/artworks/videos-animation/">
 				Videos & Animation
 				<br />
 				<span class="chinese">视频和动画</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'posters'){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/posters/">
+			<a href="<?=site_url()?>/category/artworks/posters/">
 				Posters
 				<br />
 				<span class="chinese">海报</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'drawing'){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/drawing/">
+			<a href="<?=site_url()?>/category/artworks/drawing/">
 				Drawing
 				<br />
 				<span class="chinese">绘画</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'sculpture'){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/sculpture/">
+			<a href="<?=site_url()?>/category/artworks/sculpture/">
 				Sculpture
 				<br />
 				<span class="chinese">雕塑</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'exhibition-projects'){ ?> class="on"<?php } ?>>
-			<a href="<?=site_url()?>/category/exhibition-projects/">
+			<a href="<?=site_url()?>/category/artworks/exhibition-projects/">
 				Exhibition Installation
 				<br />
 				<span class="chinese">展览</span>

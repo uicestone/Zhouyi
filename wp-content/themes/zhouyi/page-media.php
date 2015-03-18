@@ -2,12 +2,12 @@
 <div class="content category-cover media">
 	<div>
 		<p>
-			<a href="<?=site_url()?>/category/print-press/">
+			<a href="<?=site_url()?>/category/media/print-press/">
 				Print Press
 				<br/>
 				平面媒体
 			</a>
-			<a href="<?=site_url()?>/category/online-media/">
+			<a href="<?=site_url()?>/category/media/online-media/">
 				Online Media
 				<br/>
 				线上媒体
