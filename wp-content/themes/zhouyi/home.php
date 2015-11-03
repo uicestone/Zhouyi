@@ -16,7 +16,7 @@ get_header();
 		<div class="intro" lang="zh-cn" style="display: none;">
 			<?=wpautop($intro_cn->post_content)?>
 		</div>
-		<div class="links" lang="en">
+		<!-- /*<div class="links" lang="en">
 			<div class="left">
 				<p>
 					Agent:
@@ -32,8 +32,8 @@ get_header();
 				<p>Art fashion advisor member for<a href="http://www.sina.com.cn" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
 				<p>Tencent Beauty & Fashion ambassador :<a href="http://www.qq.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_3.jpg" alt=""></a></p>
 			</div>
-		</div>
-		<div class="links" lang="zh-cn" style="display: none;">
+		</div>*/ -->
+		<!-- <div class="links" lang="zh-cn" style="display: none;">
 			<div class="left">
 				<p>
 					代理公司:
@@ -49,7 +49,7 @@ get_header();
 				<p>新浪时尚艺术顾问<a href="http://www.sina.com.cn" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_2.jpg" alt=""></a></p>
 				<p>腾讯美容大使<a href="http://www.qq.com" target="_blank"><img src="<?=get_template_directory_uri()?>/images/logo_n_3.jpg" alt=""></a></p>
 			</div>
-		</div>
+		</div> -->
 		<?php foreach(array('en', 'zh-cn') as $lang){ ?>
 		<?php	$posts = get_posts(array('tag'=>$lang, 'category_name'=>'intro')); ?>
 		<?php	foreach($posts as $post){ ?>
