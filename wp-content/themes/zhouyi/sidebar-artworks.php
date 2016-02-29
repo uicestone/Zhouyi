@@ -18,9 +18,9 @@
 		</li>
 		<li<?php if($category_name === 'posters'){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/category/artworks/posters/">
-				Yizhou in Advertising Campaigns
+				Posters
 				<br />
-				<span class="chinese">周依作为品牌形象大使</span>
+				<span class="chinese">海报</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'drawing'){ ?> class="on"<?php } ?>>

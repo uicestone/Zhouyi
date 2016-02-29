@@ -56,9 +56,9 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/crossover/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/category/crossover">
-						Crossover with Brands
+						YiZhou in advertising Campaigns
 						<br />
-						<span class="chinese">品牌跨界合作</span>
+						<span class="chinese">周依作为品牌形象大使</span>
 					</a>
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/contact/') !== false){ ?> class="on"<?php } ?>>
