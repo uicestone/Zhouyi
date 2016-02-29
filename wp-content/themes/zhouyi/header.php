@@ -32,9 +32,9 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/media/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/media/">
-						Media
+						Press Clipping
 						<br />
-						<span class="chinese">媒体</span>
+						<span class="chinese">媒体报道</span>
 					</a>
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/artists/') !== false){ ?> class="on"<?php } ?>>
