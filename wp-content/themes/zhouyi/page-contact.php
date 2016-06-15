@@ -1,14 +1,13 @@
 <?php get_header(); ?>
 <div class="content contact">
 	<div class="map">
-		<a href="http://j.map.baidu.com/e2rFr" target="_blank"><img src="<?=get_template_directory_uri()?>/images/map.jpg" width="100%" ></a>
+		
 		<ul class="address">
 			<li>
 				YI ZHOU STUDIO
 				<br>
 				<a href="mailto:studio@yi-yo.net">
 					studio@yi-yo.net
-					<br>The Mansion, Block 1, 457 Shanxi Rd (N), Shanghai
 				</a>
 			</li>
 			<li>
