@@ -63,10 +63,18 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/contact/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/contact/">
-						Contact
+						From Social Media
 						<br />
-						<span class="chinese">联系</span>
+						<span class="chinese">来自Social Media</span>
 					</a>
+				</li>
+				<li class="on">
+					
+					Contact:<br />
+						press@yi-yo.net
+						<br />
+						studio@yi-yo.net
+
 				</li>
 				<li class="logo">
 					<img src="<?= get_template_directory_uri() ?>/images/logo4.png" >
