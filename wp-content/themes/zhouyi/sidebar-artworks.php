@@ -11,9 +11,9 @@
 	<ul class="nav">
 		<li<?php if($category_name === 'videos-animation'){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/category/artworks/videos-animation/">
-				Videos & Animation
+				Videos & Animation & Mixed Media
 				<br />
-				<span class="chinese">视频和动画</span>
+				<span class="chinese">视频-动画-多媒体装置</span>
 			</a>
 		</li>
 		<li<?php if($category_name === 'posters'){ ?> class="on"<?php } ?>>
@@ -25,7 +25,7 @@
 		</li>
 		<li<?php if($category_name === 'drawing'){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/category/artworks/drawing/">
-				Drawing
+				Drawing & Painting
 				<br />
 				<span class="chinese">绘画</span>
 			</a>
