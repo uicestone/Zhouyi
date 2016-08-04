@@ -3,9 +3,9 @@
 	<ul class="nav">
 		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/videos-animation/') !== false){ ?> class="on"<?php } ?>>
 			<a href="<?=site_url()?>/category/artworks/videos-animation/">
-				Videos & Animation
+				Videos & Animation & Mixed Media
 				<br />
-				<span class="chinese">视频和动画</span>
+				<span class="chinese">视频-动画-多媒体装置</span>
 			</a>
 		</li>
 		<li<?php if(strpos($_SERVER['REQUEST_URI'], '/posters/') !== false){ ?> class="on"<?php } ?>>
