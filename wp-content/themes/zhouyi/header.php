@@ -63,9 +63,9 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/contact/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/contact/">
-						From Social Media
+						From Social Media & Red Carpet
 						<br />
-						<span class="chinese">来自Social Media</span>
+						<span class="chinese">来自社交媒体和红毯</span>
 					</a>
 				</li>
 				<li class="on">
@@ -75,6 +75,9 @@
 						<br />
 						studio@yi-yo.net
 
+				</li>
+				<li class="logo">
+					<a href="http://yizhoustudio.com/"><img src="<?= get_template_directory_uri() ?>/images/logo5.jpg" ></a>
 				</li>
 				<li class="logo">
 					<img src="<?= get_template_directory_uri() ?>/images/logo4.png" >
