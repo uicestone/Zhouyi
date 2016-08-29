@@ -63,9 +63,9 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/contact/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/contact/">
-						From Social Media & Red Carpet
+						From Red Carpet
 						<br />
-						<span class="chinese">来自社交媒体和红毯</span>
+						<span class="chinese">来自红毯</span>
 					</a>
 				</li>
 				<li class="on">
