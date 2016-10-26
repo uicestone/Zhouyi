@@ -63,7 +63,7 @@
 				</li>
 				<li<?php if(strpos($_SERVER['REQUEST_URI'], '/contact/') !== false){ ?> class="on"<?php } ?>>
 					<a href="<?= site_url() ?>/contact/">
-						From Red Carpet
+						From Red Carpets
 						<br />
 						<span class="chinese">来自红毯</span>
 					</a>
